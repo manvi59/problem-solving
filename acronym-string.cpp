@@ -30,9 +30,5 @@ int main(){
         cout<<"yes"<<endl;
     }
      
-    
    
-    
-    
- 
 }
