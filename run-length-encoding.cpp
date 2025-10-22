@@ -1,6 +1,8 @@
 
 // Implement run-length encoding (e.g., “aaabb” → “a3b2”).
 
+//time complexity -->O(n)
+// space complexity-->O(n) 
 #include<iostream>
 using namespace std;
 #include<string>
