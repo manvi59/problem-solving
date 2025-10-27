@@ -96,3 +96,30 @@ int removeDuplicates(int* nums, int numsSize) {
     
     return count+1;
 }
+
+
+
+// -------------------------------two pointer approach to remove the duplicate element which 
+// have to be in place order 
+
+j=0 //unique element 
+i=1 // scanner or reader 
+
+
+
+ 
+int removeDuplicates(int* nums, int numsSize) {
+    int i=1;
+    int j=0;
+
+    for(i;i<numsSize && j<numsSize;i++){
+        if(nums[j]!=nums[i]){
+            j++;
+            nums[j]=nums[i];
+        }
+    }
+     
+    return j+1;
+    
+     
+}
